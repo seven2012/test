@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./static/css/product_match_systems.css">
+
+</head>
+
+<body>
+    <section class="setpage">
+        <div style="" class="wrapper">
+            <h1 class="mach-systems-title">
+                <img src="./static/images/icon_personal.png" alt="">
+                <div class="product-title">睡眠博士枕码匹配系统</div>
+                <img src="./static/images/icon_test_record.png" alt="">
+            </h1>
+            <div class="mach-systems-content">
+                <div class="systems-animation">
+                    <div class="left-status">
+                        <div class="slider-container" id="slider-container-left">
+                            <div class="slider-bar" id="slider-bar-left"></div>
+                            <div class="slider-handle" id="slider-handle-left"><span class="sliderValue" id="sliderValue-left">120</span></div>
+                        </div>
+
+                    </div>
+                    <div class="somebody-pic">
+                        <img src="./static/images/img_female.png" alt="" class="female">
+                        <img hidden src="./static/images/img_male.png" alt="" class="male">
+                    </div>
+                    <div class="right-status">
+                        <div class="animate-wrapper">
+                            <img src="./static/images/icon_female_s.png" alt="" class="female1">
+                            <img hidden src="./static/images/icon_female_n.png" alt="" class="female2">
+                            <img src="./static/images/icon_male_n.png" alt="" class="male1">
+                            <img hidden src="./static/images/icon_male_s.png" alt="" class="male2">
+                            <div class="slider-container" id="slider-container-right">
+                                <div class="slider-bar" id="slider-bar-right"></div>
+                                <div class="slider-handle" id="slider-handle-right"><span class="sliderValue" id="sliderValue-right">120</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="status-data">
+                    <div class="cm">cm</div>
+                    <div class="kg">kg</div>
+                </div>
+                <div class="material-choose">
+                    <div class="material-title">
+                        <span>材质偏好</span>
+                        <span>{{清水棉}}</span>
+                    </div>
+                    <ul class="material-detail">
+                        <li class="active"><img src=".\static\images\icon_clean_cotton_s.png" alt=""><span class="active">清水棉</span></li>
+                        <li><img src=".\static\images\icon_clean_cotton_n.png" alt=""><span>清水棉</span></li>
+                        <li><img src=".\static\images\icon_memory_foam_n.png" alt=""><span>记忆棉</span></li>
+                        <li><img src=".\static\images\icon_memory_foam_s.png" alt=""><span>记忆棉</span></li>
+                        <li><img src=".\static\images\icon_latex_n.png" alt=""><span>乳胶</span></li>
+                        <li><img src=".\static\images\icon_latex_s.png" alt=""><span>乳胶</span></li>
+                        <li><img src=".\static\images\icon_zero_pressure_n.png" alt=""><span>零压力</span></li>
+                        <li><img src=".\static\images\icon_zero_pressure_s.png" alt=""><span>零压力</span></li>
+                        <li><img src=".\static\images\icon_herbal_n.png" alt=""><span>草本</span></li>
+                        <li><img src=".\static\images\icon_herbal_s.png" alt=""><span>草本</span></li>
+                    </ul>
+                </div>
+
+                <div class="softness-choose">
+                    <div class="softness-title">
+                        <span>软硬度偏好</span>
+                        <span>{{适中}}</span>
+                    </div>
+                    <div class="softness-line">
+                        <span>软</span>
+                        <div class="softness-view">
+                            <div class="middle-line1"></div>
+                            <div class="middle-line2"></div>
+                            <div class="circle-middle"></div>
+                        </div>
+                        <span>硬</span>
+                    </div>
+                </div>
+
+                <div class="sleep-choose">
+                    <div class="sleep-title">
+                        <span>睡姿偏好</span>
+                        <span>{{仰卧}}</span>
+                    </div>
+                    <ul class="sleep-detail">
+                        <li><img src=".\static\images\icon_supine_s.png" alt=""><span class="active">仰卧</span></li>
+                        <li><img src=".\static\images\icon_supine_n.png" alt=""><span>仰卧</span></li>
+                        <li><img src=".\static\images\icon_side_n.png" alt=""><span>侧睡</span></li>
+                        <li><img src=".\static\images\icon_side_s.png" alt=""><span>侧睡</span></li>
+                        <li><img src=".\static\images\icon_stomach_n.png" alt=""><span>俯卧</span></li>
+                        <li><img src=".\static\images\icon_stomach_s.png" alt=""><span>俯卧</span></li>
+                        <li><img src=".\static\images\icon_mixture_n.png" alt=""><span>混合</span></li>
+                        <li><img src=".\static\images\icon_mixture_s.png" alt=""><span>混合</span></li>
+                    </ul>
+                </div>
+
+                <div class="highness-choose">
+                    <div class="highness-title">
+                        <span>高低偏好</span>
+                        <span>{{正常}}</span>
+                    </div>
+                    <div class="highness-line">
+                        <span>低</span>
+                        <div class="highness-view">
+                            <div class="bottom-line1"></div>
+                            <div class="bottom-line2"></div>
+                            <div class="circle-bottom"></div>
+                        </div>
+                        <span>高</span>
+
+                    </div>
+                </div>
+
+                <div class="health-choose">
+                    <div class="health-title">
+                        <span>颈椎健康状况</span>
+                        <span>{{很少酸痛}}</span>
+                    </div>
+                    <ul class="health-detail">
+                        <li><img src=".\static\images\icon_health_s.png" alt=""><span class="active">很少酸痛</span></li>
+                        <li><img src=".\static\images\icon_health_n.png" alt=""><span>很少酸痛</span></li>
+                        <li><img src=".\static\images\icon_nomal_n.png" alt=""><span>偶尔酸痛</span></li>
+                        <li><img src=".\static\images\icon_nomal_s.png" alt=""><span>偶尔酸痛</span></li>
+                        <li><img src=".\static\images\icon_non_health_n.png" alt=""><span>经常酸痛</span></li>
+                        <li><img src=".\static\images\icon_non_health_s.png" alt=""><span>经常酸痛</span></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="submit-container">
+                <a href=""><button type="submit" id="match-systems-btn" class="active">查看结果</button></a>
+            </div>
+        </div>
+    </section>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./static/js/product_match_systems.js"></script>
+    <script>
+        var scale = 1 / window.devicePixelRatio
+        // console.log('scale ' + scale)
+        document.write(`<meta name="viewport" content="initial-scale=${scale}, user-scalable=no, maximum-scale=${scale}, minimum-scale=${scale}">`)
+    </script>
+
+    <script>
+        var width = document.documentElement.clientWidth / window.devicePixelRatio
+        // console.log('document.documentElement.clientWidth ' + document.documentElement.clientWidth)
+        // console.log('window.devicePixelRatio ' + window.devicePixelRatio)
+        // console.log('width ' + width)
+        var css = `
+    html{
+    font-size: ${width / 10 * window.devicePixelRatio}px;
+    }    
+    `
+        document.write(`<style>${css}`)
+    /*
+    html{(1rem == font-size:320*(width/320)/10) == width / 10}px;
+    10rem = width(页面宽度);
+    换算所有单位都用rem;(所有长度都以页面宽度为基准)
+    最后页面可以兼容任何手机屏宽
+    */
+    </script>
+</body>
+
+</html>
